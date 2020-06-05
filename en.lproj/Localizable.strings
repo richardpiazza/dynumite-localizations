@@ -1,0 +1,66 @@
+/*
+  Localizable.strings
+  Dynumite
+
+  Created by Richard Piazza on 6/5/20.
+  Copyright © 2020 Richard Piazza. All rights reserved.
+*/
+
+// MARK: - MENU ITEMS
+
+"ABOUT" = "About";
+"UPDATE" = "Update";
+"LAST_UPDATE" = "Last Update";
+"NEXT_UPDATE" = "Next Update";
+"IP_ADDRESS" = "IP Address";
+"PREFERENCES" = "Preferences";
+"QUIT" = "Quit";
+
+// MARK: - Status Messages
+
+"OK" = "OK";
+"UPDATING" = "Updating";
+"UNKNOWN" = "Unknown";
+
+// MARK: - Labels & Placeholders
+
+"USERNAME" = "Username";
+"PASSWORD" = "Password";
+"HOSTNAME" = "Hostname";
+"LOCATION" = "Location";
+"FREQUENCY" = "Frequency";
+"REQUIRED" = "Required";
+"OPTIONAL" = "Optional";
+
+// MARK: - Update Frequency Options
+
+"FREQUENCY_MANUAL" = "Manual";
+"FREQUENCY_24HOURS" = "24 Hours";
+"FREQUENCY_12HOURS" = "12 Hours";
+"FREQUENCY_6HOURS" = "6 Hours";
+"FREQUENCY_60MINUTES" = "60 Minutes";
+"FREQUENCY_30MINUTES" = "30 Minutes";
+"FREQUENCY_15MINUTES" = "15 Minutes";
+
+// MARK: - Buttons / Actions
+
+"REVIEW" = "Review in App Store";
+"CONTACT_SUPPORT" = "Contact Support";
+"LOG" = "Log";
+"CLEAR" = "Clear";
+
+// MARK: - Longer Helpful Messages And About Information.
+
+"TIP" = "If both hostname and location are specified, only the location will be used.";
+"ABOUT_BLOB" = "Dynumite keeps your Dynu.com hostname/location up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store.";
+
+// MARK: - Errors
+
+"ERROR_DESCRIPTION_IP_ADDRESS" = "Could not obtain IP Address.";
+"ERROR_DESCRIPTION_AUTHENTICATION" = "Could not authenticate with Dynu.com.";
+"ERROR_DESCRIPTION_REQUEST" = "Dynu.com could not be updated.";
+"ERROR_DESCRIPTION_SERVICE" = "Dynu.com service may be experiencing difficulties.";
+"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "Verify internet accessibility to %@.";
+"ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "Check your credentials and verify your account has access to Dynu.com.";
+"ERROR_RECOVERY_SUGGESTION_REQUEST" = "Check your hostname/location and verify they are valid with your account.";
+"ERROR_RECOVERY_SUGGESTION_SERVICE" = "A DNS Error, Abuse Flag, or Update Suspension was returned.";
