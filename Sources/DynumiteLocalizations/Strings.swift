@@ -2,7 +2,10 @@ import LocaleSupport
 import Foundation
 
 public enum Strings {
-    
+}
+
+// MARK: - Menu
+public extension Strings {
     enum Menu: String, ExpressibleByLocalizedString {
         case about = "About"
         case update = "Update"
@@ -15,7 +18,10 @@ public enum Strings {
         public var bundle: Bundle { .module }
         public var defaultIndicators: (prefix: Character, suffix: Character)? { ("[", "]") }
     }
-    
+}
+
+// MARK: - Status
+public extension Strings {
     enum Status: String, ExpressibleByLocalizedString {
         case ok = "OK"
         case updating = "Updating"
@@ -24,7 +30,10 @@ public enum Strings {
         public var bundle: Bundle { .module }
         public var defaultIndicators: (prefix: Character, suffix: Character)? { ("[", "]") }
     }
-    
+}
+
+// MARK: - Placeholder
+public extension Strings {
     enum Placeholder: String, ExpressibleByLocalizedString {
         case username = "Username"
         case password = "Password"
@@ -37,7 +46,10 @@ public enum Strings {
         public var bundle: Bundle { .module }
         public var defaultIndicators: (prefix: Character, suffix: Character)? { ("[", "]") }
     }
-    
+}
+
+// MARK: - Frequency
+public extension Strings {
     enum Frequency: String, ExpressibleByLocalizedString {
         case manual = "Manual"
         case hours24 = "24 Hours"
@@ -63,7 +75,10 @@ public enum Strings {
             }
         }
     }
-    
+}
+
+// MARK: - Action
+public extension Strings {
     enum Action: String, ExpressibleByLocalizedString {
         case review = "Review in App Store"
         case contactSupport = "Contact Support"
@@ -73,7 +88,10 @@ public enum Strings {
         public var bundle: Bundle { .module }
         public var defaultIndicators: (prefix: Character, suffix: Character)? { ("[", "]") }
     }
-    
+}
+
+// MARK: - Help
+public extension Strings {
     enum Help: String, ExpressibleByLocalizedString {
         case tip = "If both hostname and location are specified, only the location will be used."
         case aboutBlob = "Dynumite keeps your Dynu.com hostname/location up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store."
@@ -81,9 +99,11 @@ public enum Strings {
         public var bundle: Bundle { .module }
         public var defaultIndicators: (prefix: Character, suffix: Character)? { ("[", "]") }
     }
-    
+}
+
+// MARK: - Error
+public extension Strings {
     enum Error {
-        
         public enum Description: String, ExpressibleByLocalizedString {
             case ipAddress = "Could not obtain IP Address."
             case authentication = "Could not authenticate with Dynu.com."
