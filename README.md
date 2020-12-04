@@ -1,4 +1,7 @@
 # dynumite-localizations
+
+![Swift](https://github.com/richardpiazza/dynumite-localizations/workflows/Swift/badge.svg?branch=main)
+
 Localizations for the macOS app **Dynumite**.
 
 A community effort (ala [Steven Troughton-Smiths Broadcasts](https://github.com/steventroughtonsmith/broadcasts-localization)) to provide and improve localizations for **Dynumite**.
