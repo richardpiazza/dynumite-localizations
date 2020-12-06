@@ -4,7 +4,8 @@
 
 Localizations for the macOS app **Dynumite**.
 
-A community effort (ala [Steven Troughton-Smiths Broadcasts](https://github.com/steventroughtonsmith/broadcasts-localization)) to provide and improve localizations for **Dynumite**.
+A community effort (ala [Steven Troughton-Smiths Broadcasts](https://github.com/steventroughtonsmith/broadcasts-localization)) to provide 
+and improve localizations for **Dynumite**.
 
 ## Disk Structure
 
@@ -18,7 +19,8 @@ Please do not include any other files in a pull request.
 
 ## Localization
 
-Strings are denoted as "KEY" = "value", where the keys remain the same across all languages, and the values are localized. There must be a ; at the end of each line.
+Strings are denoted as "KEY" = "value", where the keys remain the same across all languages, and the values are localized. There must be a
+";" at the end of each line.
 
 `"ABOUT" = "About Dynumite";`
 

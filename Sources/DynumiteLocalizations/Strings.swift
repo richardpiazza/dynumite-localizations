@@ -2,6 +2,7 @@ import LocaleSupport
 import Foundation
 
 public enum Strings {
+    public static let bundle: Bundle = .module
 }
 
 // MARK: - Menu
@@ -25,6 +26,7 @@ public extension Strings {
     enum Status: String, ExpressibleByLocalizedString {
         case ok = "OK"
         case updating = "Updating"
+        case error = "Error"
         case unknown = "Unknown"
         
         public var bundle: Bundle { .module }
@@ -96,6 +98,18 @@ public extension Strings {
         case tip = "If both hostname and location are specified, only the location will be used."
         case aboutBlob = "Dynumite keeps your Dynu.com hostname/location up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store."
         
+        public var bundle: Bundle { .module }
+        public var defaultIndicators: (prefix: Character, suffix: Character)? { ("[", "]") }
+    }
+}
+
+// MARK: - Notification
+public extension Strings {
+    enum Notification: String, ExpressibleByLocalizedString {
+        case title = "Updating IP Address"
+        case body = "Dynumite is checking for changes to your IP Address."
+        
+        public var prefix: String? { "notification" }
         public var bundle: Bundle { .module }
         public var defaultIndicators: (prefix: Character, suffix: Character)? { ("[", "]") }
     }
