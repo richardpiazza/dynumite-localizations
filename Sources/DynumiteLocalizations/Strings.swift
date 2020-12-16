@@ -86,6 +86,8 @@ public extension Strings {
         case contactSupport = "Contact Support"
         case log = "Log"
         case clear = "Clear"
+        case close = "Close"
+        case copyToClipboard = "Copy to Clipboard"
         
         public var bundle: Bundle { .module }
         public var defaultIndicators: (prefix: Character, suffix: Character)? { ("[", "]") }

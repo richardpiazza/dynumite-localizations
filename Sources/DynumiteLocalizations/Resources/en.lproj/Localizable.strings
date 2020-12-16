@@ -49,6 +49,8 @@
 "CONTACT_SUPPORT" = "Contact Support";
 "LOG" = "Log";
 "CLEAR" = "Clear";
+"CLOSE" = "Close";
+"COPY_TO_CLIPBOARD" = "Copy to Clipboard";
 
 // MARK: - Longer Helpful Messages And About Information.
 
