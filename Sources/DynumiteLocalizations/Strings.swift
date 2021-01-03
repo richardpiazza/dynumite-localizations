@@ -40,6 +40,8 @@ public extension Strings {
         case username = "Username"
         case password = "Password"
         case hostname = "Hostname"
+        case group = "Group"
+        @available(*, deprecated, renamed: "group")
         case location = "Location"
         case frequency = "Frequency"
         case required = "Required"

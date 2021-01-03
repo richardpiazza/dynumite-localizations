@@ -20,6 +20,7 @@
 
 "OK" = "OK";
 "UPDATING" = "Updating";
+"ERROR" = "Error";
 "UNKNOWN" = "Unknown";
 
 // MARK: - Labels & Placeholders
@@ -27,6 +28,7 @@
 "USERNAME" = "Username";
 "PASSWORD" = "Password";
 "HOSTNAME" = "Hostname";
+"GROUP" = "Group";
 "LOCATION" = "Location";
 "FREQUENCY" = "Frequency";
 "REQUIRED" = "Required";
@@ -48,11 +50,18 @@
 "CONTACT_SUPPORT" = "Contact Support";
 "LOG" = "Log";
 "CLEAR" = "Clear";
+"CLOSE" = "Close";
+"COPY_TO_CLIPBOARD" = "Copy to Clipboard";
 
 // MARK: - Longer Helpful Messages And About Information.
 
 "TIP" = "If both hostname and location are specified, only the location will be used.";
 "ABOUT_BLOB" = "Dynumite keeps your Dynu.com hostname/location up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store.";
+
+// MARK: - Notifications
+
+"NOTIFICATION_TITLE" = "Updating IP Address";
+"NOTIFICATION_BODY" = "Dynumite is checking for changes to your IP Address.";
 
 // MARK: - Errors
 

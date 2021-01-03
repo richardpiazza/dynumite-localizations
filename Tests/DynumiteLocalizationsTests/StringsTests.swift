@@ -33,7 +33,7 @@ final class StringsTests: XCTestCase {
         XCTAssertEqual(Strings.Placeholder.username.key, "USERNAME")
         XCTAssertEqual(Strings.Placeholder.password.key, "PASSWORD")
         XCTAssertEqual(Strings.Placeholder.hostname.key, "HOSTNAME")
-        XCTAssertEqual(Strings.Placeholder.location.key, "LOCATION")
+        XCTAssertEqual(Strings.Placeholder.group.key, "GROUP")
         XCTAssertEqual(Strings.Placeholder.frequency.key, "FREQUENCY")
         XCTAssertEqual(Strings.Placeholder.required.key, "REQUIRED")
         XCTAssertEqual(Strings.Placeholder.optional.key, "OPTIONAL")
