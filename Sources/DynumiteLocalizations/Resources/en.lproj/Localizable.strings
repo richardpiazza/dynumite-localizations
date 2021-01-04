@@ -27,6 +27,7 @@
 
 "USERNAME" = "Username";
 "PASSWORD" = "Password";
+"ALL_DOMAINS" = "All Domains";
 "HOSTNAME" = "Hostname";
 "GROUP" = "Group";
 "LOCATION" = "Location";
@@ -56,7 +57,7 @@
 // MARK: - Longer Helpful Messages And About Information.
 
 "TIP" = "If both hostname and location are specified, only the location will be used.";
-"ABOUT_BLOB" = "Dynumite keeps your Dynu.com hostname/location up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store.";
+"ABOUT_BLOB" = "Dynumite keeps your Dynu.com hostnames/groups up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store.";
 
 // MARK: - Notifications
 

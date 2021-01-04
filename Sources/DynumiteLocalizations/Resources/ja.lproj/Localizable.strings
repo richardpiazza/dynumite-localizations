@@ -8,68 +8,69 @@
 
 // MARK: - MENU ITEMS
 
-"ABOUT" = "About";
-"UPDATE" = "Update";
-"LAST_UPDATE" = "Last Update";
-"NEXT_UPDATE" = "Next Update";
-"IP_ADDRESS" = "IP Address";
-"PREFERENCES" = "Preferences";
-"QUIT" = "Quit";
+"ABOUT" = "約";
+"UPDATE" = "更新";
+"LAST_UPDATE" = "最後の更新";
+"NEXT_UPDATE" = "次の更新";
+"IP_ADDRESS" = "IPアドレス";
+"PREFERENCES" = "環境設定";
+"QUIT" = "終了する";
 
 // MARK: - Status Messages
 
 "OK" = "OK";
-"UPDATING" = "Updating";
-"ERROR" = "Error";
-"UNKNOWN" = "Unknown";
+"UPDATING" = "更新";
+"ERROR" = "エラー";
+"UNKNOWN" = "わからない";
 
 // MARK: - Labels & Placeholders
 
-"USERNAME" = "Username";
-"PASSWORD" = "Password";
-"HOSTNAME" = "Hostname";
-"GROUP" = "Group";
-"LOCATION" = "Location";
-"FREQUENCY" = "Frequency";
-"REQUIRED" = "Required";
-"OPTIONAL" = "Optional";
+"USERNAME" = "ユーザー名";
+"PASSWORD" = "パスワード";
+"ALL_DOMAINS" = "すべてのドメイン";
+"HOSTNAME" = "ホスト名";
+"GROUP" = "グループ";
+"LOCATION" = "ロケーション";
+"FREQUENCY" = "周波数";
+"REQUIRED" = "必須";
+"OPTIONAL" = "オプショナル";
 
 // MARK: - Update Frequency Options
 
-"FREQUENCY_MANUAL" = "Manual";
-"FREQUENCY_24HOURS" = "24 Hours";
-"FREQUENCY_12HOURS" = "12 Hours";
-"FREQUENCY_6HOURS" = "6 Hours";
-"FREQUENCY_60MINUTES" = "60 Minutes";
-"FREQUENCY_30MINUTES" = "30 Minutes";
-"FREQUENCY_15MINUTES" = "15 Minutes";
+"FREQUENCY_MANUAL" = "マニュアル";
+"FREQUENCY_24HOURS" = "24時間";
+"FREQUENCY_12HOURS" = "12時間";
+"FREQUENCY_6HOURS" = "6時間";
+"FREQUENCY_60MINUTES" = "60分";
+"FREQUENCY_30MINUTES" = "30分";
+"FREQUENCY_15MINUTES" = "15分";
 
 // MARK: - Buttons / Actions
 
-"REVIEW" = "Review in App Store";
-"CONTACT_SUPPORT" = "Contact Support";
-"LOG" = "Log";
-"CLEAR" = "Clear";
-"CLOSE" = "Close";
-"COPY_TO_CLIPBOARD" = "Copy to Clipboard";
+"REVIEW" = "App Storeでレビュー";
+"CONTACT_SUPPORT" = "サポート問い合わせ先";
+"LOG" = "ログ";
+"CLEAR" = "晴れ";
+"CLOSE" = "閉じる";
+"COPY_TO_CLIPBOARD" = "クリップボードにコピー";
 
 // MARK: - Longer Helpful Messages And About Information.
 
-"TIP" = "If both hostname and location are specified, only the location will be used.";
-"ABOUT_BLOB" = "Dynumite keeps your Dynu.com hostname/location up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store.";
+"TIP" = "両方のホスト名と場所が指定されている場合、唯一の場所が使用されます。";
+"ABOUT_BLOB" = "Dynumiteは、あなたの現在のパブリックIPアドレスと日付にあなたのDynu.comホスト名/グループアップを続けています。\n\nDynumiteは、パブリックAPIのdynu.com、ipify.orgから、とifconfig.coを使用しています。\n\nIFあなたはDynumiteが便利、 App Storeでのレビューを残すために瞬間を取ってご検討ください。";
 
 // MARK: - Notifications
 
-"NOTIFICATION_TITLE" = "Updating IP Address";
-"NOTIFICATION_BODY" = "Dynumite is checking for changes to your IP Address.";
+"NOTIFICATION_TITLE" = "更新IPアドレス";
+"NOTIFICATION_BODY" = "Dynumiteは、あなたのIPアドレスへの変更をチェックしています。";
 
 // MARK: - Errors
 
-"ERROR_DESCRIPTION_IP_ADDRESS" = "Could not obtain IP Address.";
-"ERROR_DESCRIPTION_AUTHENTICATION" = "Could not authenticate with Dynu.com.";
-"ERROR_DESCRIPTION_REQUEST" = "Dynu.com could not be updated.";
-"ERROR_DESCRIPTION_SERVICE" = "Dynu.com service may be experiencing difficulties.";
-"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "Verify internet accessibility to %@.";
-"ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "Check your credentials and verify your account has access to Dynu.com.";
-"ERROR_RECOVERY_SUGGESTION_REQUEST" = "Check your hostname/location and verify they are valid with your account.";
-"ERROR_RECOVERY_SUGGESTION_SERVICE" = "A DNS Error, Abuse Flag, or Update Suspension was returned.";
+"ERROR_DESCRIPTION_IP_ADDRESS" = "IPアドレスを取得できませんでした。";
+"ERROR_DESCRIPTION_AUTHENTICATION" = "Dynu.comで認証できませんでした。";
+"ERROR_DESCRIPTION_REQUEST" = "Dynu.comは更新できませんでした。";
+"ERROR_DESCRIPTION_SERVICE" = "Dynu.comサービスは、問題が発生することができます。";
+"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "％にインターネットアクセスを確認してください@。";
+"ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "あなたの資格情報をチェックして、アカウントがDynu.comへのアクセス権を持っていることを確認します。";
+"ERROR_RECOVERY_SUGGESTION_REQUEST" = "あなたのホスト名/場所をチェックして、彼らは自分のアカウントで有効であることを確認します。";
+"ERROR_RECOVERY_SUGGESTION_SERVICE" = "DNSエラーは、旗を乱用、またはUpdateサスペンションが返されました。";

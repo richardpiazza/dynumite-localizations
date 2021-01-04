@@ -8,68 +8,69 @@
 
 // MARK: - MENU ITEMS
 
-"ABOUT" = "About";
-"UPDATE" = "Update";
-"LAST_UPDATE" = "Last Update";
-"NEXT_UPDATE" = "Next Update";
-"IP_ADDRESS" = "IP Address";
-"PREFERENCES" = "Preferences";
-"QUIT" = "Quit";
+"ABOUT" = "Di";
+"UPDATE" = "Aggiornare";
+"LAST_UPDATE" = "Ultimo aggiornamento";
+"NEXT_UPDATE" = "prossimo aggiornamento";
+"IP_ADDRESS" = "Indirizzo IP";
+"PREFERENCES" = "Preferenze";
+"QUIT" = "Smettere";
 
 // MARK: - Status Messages
 
-"OK" = "OK";
-"UPDATING" = "Updating";
-"ERROR" = "Error";
-"UNKNOWN" = "Unknown";
+"OK" = "ok";
+"UPDATING" = "In aggiornamento";
+"ERROR" = "Errore";
+"UNKNOWN" = "Sconosciuto";
 
 // MARK: - Labels & Placeholders
 
-"USERNAME" = "Username";
-"PASSWORD" = "Password";
-"HOSTNAME" = "Hostname";
-"GROUP" = "Group";
-"LOCATION" = "Location";
-"FREQUENCY" = "Frequency";
-"REQUIRED" = "Required";
-"OPTIONAL" = "Optional";
+"USERNAME" = "Nome utente";
+"PASSWORD" = "Parola d'ordine";
+"ALL_DOMAINS" = "Tutti i domini";
+"HOSTNAME" = "Nome host";
+"GROUP" = "Gruppo";
+"LOCATION" = "Posizione";
+"FREQUENCY" = "Frequenza";
+"REQUIRED" = "necessario";
+"OPTIONAL" = "Opzionale";
 
 // MARK: - Update Frequency Options
 
-"FREQUENCY_MANUAL" = "Manual";
-"FREQUENCY_24HOURS" = "24 Hours";
-"FREQUENCY_12HOURS" = "12 Hours";
-"FREQUENCY_6HOURS" = "6 Hours";
-"FREQUENCY_60MINUTES" = "60 Minutes";
-"FREQUENCY_30MINUTES" = "30 Minutes";
-"FREQUENCY_15MINUTES" = "15 Minutes";
+"FREQUENCY_MANUAL" = "Manuale";
+"FREQUENCY_24HOURS" = "24 ore";
+"FREQUENCY_12HOURS" = "12 ore";
+"FREQUENCY_6HOURS" = "6 ore";
+"FREQUENCY_60MINUTES" = "60 minuti";
+"FREQUENCY_30MINUTES" = "30 minuti";
+"FREQUENCY_15MINUTES" = "15 minuti";
 
 // MARK: - Buttons / Actions
 
-"REVIEW" = "Review in App Store";
-"CONTACT_SUPPORT" = "Contact Support";
-"LOG" = "Log";
-"CLEAR" = "Clear";
-"CLOSE" = "Close";
-"COPY_TO_CLIPBOARD" = "Copy to Clipboard";
+"REVIEW" = "Recensione su App Store";
+"CONTACT_SUPPORT" = "Contatta il supporto";
+"LOG" = "Login";
+"CLEAR" = "Chiaro";
+"CLOSE" = "Vicino";
+"COPY_TO_CLIPBOARD" = "Copia negli appunti";
 
 // MARK: - Longer Helpful Messages And About Information.
 
-"TIP" = "If both hostname and location are specified, only the location will be used.";
-"ABOUT_BLOB" = "Dynumite keeps your Dynu.com hostname/location up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store.";
+"TIP" = "Se vengono specificati sia hostname e la posizione, sarà usato solo la posizione.";
+"ABOUT_BLOB" = "Dynumite mantiene i Dynu.com hostname / gruppi al passo con il vostro indirizzo IP pubblico attuale. \n\nDynumite utilizza l'API pubblico dal dynu.com, ipify.org e ifconfig.co. \n\nPer trovare Dynumite utile, si prega di prendere in considerazione un momento per lasciare un commento su App Store.";
 
 // MARK: - Notifications
 
-"NOTIFICATION_TITLE" = "Updating IP Address";
-"NOTIFICATION_BODY" = "Dynumite is checking for changes to your IP Address.";
+"NOTIFICATION_TITLE" = "Indirizzo IP Aggiornamento";
+"NOTIFICATION_BODY" = "Dynumite sta controllando per le modifiche al tuo indirizzo IP.";
 
 // MARK: - Errors
 
-"ERROR_DESCRIPTION_IP_ADDRESS" = "Could not obtain IP Address.";
-"ERROR_DESCRIPTION_AUTHENTICATION" = "Could not authenticate with Dynu.com.";
-"ERROR_DESCRIPTION_REQUEST" = "Dynu.com could not be updated.";
-"ERROR_DESCRIPTION_SERVICE" = "Dynu.com service may be experiencing difficulties.";
-"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "Verify internet accessibility to %@.";
-"ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "Check your credentials and verify your account has access to Dynu.com.";
-"ERROR_RECOVERY_SUGGESTION_REQUEST" = "Check your hostname/location and verify they are valid with your account.";
-"ERROR_RECOVERY_SUGGESTION_SERVICE" = "A DNS Error, Abuse Flag, or Update Suspension was returned.";
+"ERROR_DESCRIPTION_IP_ADDRESS" = "Impossibile ottenere l'indirizzo IP.";
+"ERROR_DESCRIPTION_AUTHENTICATION" = "Impossibile autenticarsi con Dynu.com.";
+"ERROR_DESCRIPTION_REQUEST" = "Dynu.com non potrebbe essere aggiornato.";
+"ERROR_DESCRIPTION_SERVICE" = "servizio Dynu.com può essere in difficoltà.";
+"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "Verifica l'accessibilità ad internet al% @.";
+"ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "Verificare le credenziali e verificare il tuo account ha accesso a Dynu.com.";
+"ERROR_RECOVERY_SUGGESTION_REQUEST" = "Controlla il tuo nome host / posizione e verificare che siano validi con il tuo account.";
+"ERROR_RECOVERY_SUGGESTION_SERVICE" = "Un errore DNS, abuso Bandiera, o aggiornamento di sospensione è stato restituito.";

@@ -8,68 +8,69 @@
 
 // MARK: - MENU ITEMS
 
-"ABOUT" = "About";
-"UPDATE" = "Update";
-"LAST_UPDATE" = "Last Update";
-"NEXT_UPDATE" = "Next Update";
-"IP_ADDRESS" = "IP Address";
-"PREFERENCES" = "Preferences";
-"QUIT" = "Quit";
+"ABOUT" = "关于";
+"UPDATE" = "更新";
+"LAST_UPDATE" = "最后更新";
+"NEXT_UPDATE" = "下次更新";
+"IP_ADDRESS" = "IP地址";
+"PREFERENCES" = "首选项";
+"QUIT" = "放弃";
 
 // MARK: - Status Messages
 
-"OK" = "OK";
-"UPDATING" = "Updating";
-"ERROR" = "Error";
-"UNKNOWN" = "Unknown";
+"OK" = "好";
+"UPDATING" = "更新";
+"ERROR" = "错误";
+"UNKNOWN" = "未知";
 
 // MARK: - Labels & Placeholders
 
-"USERNAME" = "Username";
-"PASSWORD" = "Password";
-"HOSTNAME" = "Hostname";
-"GROUP" = "Group";
-"LOCATION" = "Location";
-"FREQUENCY" = "Frequency";
-"REQUIRED" = "Required";
-"OPTIONAL" = "Optional";
+"USERNAME" = "用户名";
+"PASSWORD" = "密码";
+"ALL_DOMAINS" = "所有域";
+"HOSTNAME" = "主机名";
+"GROUP" = "组";
+"LOCATION" = "位置";
+"FREQUENCY" = "频率";
+"REQUIRED" = "需要";
+"OPTIONAL" = "可选的";
 
 // MARK: - Update Frequency Options
 
-"FREQUENCY_MANUAL" = "Manual";
-"FREQUENCY_24HOURS" = "24 Hours";
-"FREQUENCY_12HOURS" = "12 Hours";
-"FREQUENCY_6HOURS" = "6 Hours";
-"FREQUENCY_60MINUTES" = "60 Minutes";
-"FREQUENCY_30MINUTES" = "30 Minutes";
-"FREQUENCY_15MINUTES" = "15 Minutes";
+"FREQUENCY_MANUAL" = "手册";
+"FREQUENCY_24HOURS" = "24小时";
+"FREQUENCY_12HOURS" = "12小时";
+"FREQUENCY_6HOURS" = "6小时";
+"FREQUENCY_60MINUTES" = "60分钟";
+"FREQUENCY_30MINUTES" = "30分钟";
+"FREQUENCY_15MINUTES" = "15分钟";
 
 // MARK: - Buttons / Actions
 
-"REVIEW" = "Review in App Store";
-"CONTACT_SUPPORT" = "Contact Support";
-"LOG" = "Log";
-"CLEAR" = "Clear";
-"CLOSE" = "Close";
-"COPY_TO_CLIPBOARD" = "Copy to Clipboard";
+"REVIEW" = "回顾在App Store中";
+"CONTACT_SUPPORT" = "联系支持";
+"LOG" = "日志";
+"CLEAR" = "明确";
+"CLOSE" = "关";
+"COPY_TO_CLIPBOARD" = "复制到剪贴板";
 
 // MARK: - Longer Helpful Messages And About Information.
 
-"TIP" = "If both hostname and location are specified, only the location will be used.";
-"ABOUT_BLOB" = "Dynumite keeps your Dynu.com hostname/location up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store.";
+"TIP" = "如果同时指定主机名和位置，只有位置将被使用。";
+"ABOUT_BLOB" = "Dynumite让您Dynu.com主机名/组最新的与您当前的公网IP地址。\n\nDynumite使用公共API的从dynu.com，ipify.org和ifconfig.co。\n\n如果您发现Dynumite有用，请考虑一个时刻留下评论在App Store中。";
 
 // MARK: - Notifications
 
-"NOTIFICATION_TITLE" = "Updating IP Address";
-"NOTIFICATION_BODY" = "Dynumite is checking for changes to your IP Address.";
+"NOTIFICATION_TITLE" = "更新IP地址";
+"NOTIFICATION_BODY" = "Dynumite正在检查更改您的IP地址。";
 
 // MARK: - Errors
 
-"ERROR_DESCRIPTION_IP_ADDRESS" = "Could not obtain IP Address.";
-"ERROR_DESCRIPTION_AUTHENTICATION" = "Could not authenticate with Dynu.com.";
-"ERROR_DESCRIPTION_REQUEST" = "Dynu.com could not be updated.";
-"ERROR_DESCRIPTION_SERVICE" = "Dynu.com service may be experiencing difficulties.";
-"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "Verify internet accessibility to %@.";
-"ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "Check your credentials and verify your account has access to Dynu.com.";
-"ERROR_RECOVERY_SUGGESTION_REQUEST" = "Check your hostname/location and verify they are valid with your account.";
-"ERROR_RECOVERY_SUGGESTION_SERVICE" = "A DNS Error, Abuse Flag, or Update Suspension was returned.";
+"ERROR_DESCRIPTION_IP_ADDRESS" = "无法获取IP地址。";
+"ERROR_DESCRIPTION_AUTHENTICATION" = "无法与Dynu.com验证。";
+"ERROR_DESCRIPTION_REQUEST" = "Dynu.com无法更新。";
+"ERROR_DESCRIPTION_SERVICE" = "Dynu.com服务可能遇到的困难。";
+"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "验证互联网无障碍％@。";
+"ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "检查您的凭据并验证您的帐户可以访问Dynu.com。";
+"ERROR_RECOVERY_SUGGESTION_REQUEST" = "检查你的主机名/位置，并验证它们与您的帐户有效。";
+"ERROR_RECOVERY_SUGGESTION_SERVICE" = "DNS错误，滥用标志，或返回更新停止。";
