@@ -39,6 +39,7 @@ public extension Strings {
     enum Placeholder: String, ExpressibleByLocalizedString {
         case username = "Username"
         case password = "Password"
+        case allDomains = "All Domains"
         case hostname = "Hostname"
         case group = "Group"
         @available(*, deprecated, renamed: "group")
