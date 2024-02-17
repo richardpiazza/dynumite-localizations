@@ -1,76 +1,48 @@
-/*
-  Localizable.strings
-  Dynumite
-
-  Created by Richard Piazza on 6/5/20.
-  Copyright © 2020 Richard Piazza. All rights reserved.
-*/
-
-// MARK: - MENU ITEMS
-
 "ABOUT" = "約";
-"UPDATE" = "更新";
-"LAST_UPDATE" = "最後の更新";
-"NEXT_UPDATE" = "次の更新";
-"IP_ADDRESS" = "IPアドレス";
-"PREFERENCES" = "環境設定";
-"QUIT" = "終了する";
-
-// MARK: - Status Messages
-
-"OK" = "OK";
-"UPDATING" = "更新";
-"ERROR" = "エラー";
-"UNKNOWN" = "わからない";
-
-// MARK: - Labels & Placeholders
-
-"USERNAME" = "ユーザー名";
-"PASSWORD" = "パスワード";
+"ABOUT_BLOB" = "Dynumiteは、あなたの現在のパブリックIPアドレスと日付にあなたのDynu.comホスト名/グループアップを続けています。\n\nDynumiteは、パブリックAPIのdynu.com、ipify.orgから、とifconfig.coを使用しています。\n\nIFあなたはDynumiteが便利、 App Storeでのレビューを残すために瞬間を取ってご検討ください。";
 "ALL_DOMAINS" = "すべてのドメイン";
-"HOSTNAME" = "ホスト名";
-"GROUP" = "グループ";
-"LOCATION" = "ロケーション";
-"FREQUENCY" = "周波数";
-"REQUIRED" = "必須";
-"OPTIONAL" = "オプショナル";
-
-// MARK: - Update Frequency Options
-
-"FREQUENCY_MANUAL" = "マニュアル";
-"FREQUENCY_24HOURS" = "24時間";
-"FREQUENCY_12HOURS" = "12時間";
-"FREQUENCY_6HOURS" = "6時間";
-"FREQUENCY_60MINUTES" = "60分";
-"FREQUENCY_30MINUTES" = "30分";
-"FREQUENCY_15MINUTES" = "15分";
-
-// MARK: - Buttons / Actions
-
-"REVIEW" = "App Storeでレビュー";
-"CONTACT_SUPPORT" = "サポート問い合わせ先";
-"LOG" = "ログ";
 "CLEAR" = "晴れ";
 "CLOSE" = "閉じる";
+"COMPACT_MENU_DESCRIPTION" = "すべてが「OK」の場合に設定を非表示にすることで、メニューの複雑さを軽減します。";
+"COMPACT_MENU_TITLE" = "コンパクトメニュー";
+"CONTACT_SUPPORT" = "サポート問い合わせ先";
 "COPY_TO_CLIPBOARD" = "クリップボードにコピー";
-
-// MARK: - Longer Helpful Messages And About Information.
-
-"TIP" = "両方のホスト名と場所が指定されている場合、唯一の場所が使用されます。";
-"ABOUT_BLOB" = "Dynumiteは、あなたの現在のパブリックIPアドレスと日付にあなたのDynu.comホスト名/グループアップを続けています。\n\nDynumiteは、パブリックAPIのdynu.com、ipify.orgから、とifconfig.coを使用しています。\n\nIFあなたはDynumiteが便利、 App Storeでのレビューを残すために瞬間を取ってご検討ください。";
-
-// MARK: - Notifications
-
-"NOTIFICATION_TITLE" = "更新IPアドレス";
-"NOTIFICATION_BODY" = "Dynumiteは、あなたのIPアドレスへの変更をチェックしています。";
-
-// MARK: - Errors
-
-"ERROR_DESCRIPTION_IP_ADDRESS" = "IPアドレスを取得できませんでした。";
+"ERROR" = "エラー";
 "ERROR_DESCRIPTION_AUTHENTICATION" = "Dynu.comで認証できませんでした。";
+"ERROR_DESCRIPTION_IP_ADDRESS" = "IPアドレスを取得できませんでした。";
 "ERROR_DESCRIPTION_REQUEST" = "Dynu.comは更新できませんでした。";
 "ERROR_DESCRIPTION_SERVICE" = "Dynu.comサービスは、問題が発生することができます。";
-"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "％にインターネットアクセスを確認してください@。";
 "ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "あなたの資格情報をチェックして、アカウントがDynu.comへのアクセス権を持っていることを確認します。";
+"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "％にインターネットアクセスを確認してください@。";
 "ERROR_RECOVERY_SUGGESTION_REQUEST" = "あなたのホスト名/場所をチェックして、彼らは自分のアカウントで有効であることを確認します。";
 "ERROR_RECOVERY_SUGGESTION_SERVICE" = "DNSエラーは、旗を乱用、またはUpdateサスペンションが返されました。";
+"FREQUENCY" = "周波数";
+"FREQUENCY_12HOURS" = "12時間";
+"FREQUENCY_15MINUTES" = "15分";
+"FREQUENCY_24HOURS" = "24時間";
+"FREQUENCY_30MINUTES" = "30分";
+"FREQUENCY_60MINUTES" = "60分";
+"FREQUENCY_6HOURS" = "6時間";
+"FREQUENCY_MANUAL" = "マニュアル";
+"GROUP" = "グループ";
+"HOSTNAME" = "ホスト名";
+"IP_ADDRESS" = "IPアドレス";
+"LAST_UPDATE" = "最後の更新";
+"LOCATION" = "ロケーション";
+"LOG" = "ログ";
+"NEXT_UPDATE" = "次の更新";
+"NOTIFICATION_BODY" = "Dynumiteは、あなたのIPアドレスへの変更をチェックしています。";
+"NOTIFICATION_TITLE" = "更新IPアドレス";
+"OK" = "OK";
+"OPTIONAL" = "オプショナル";
+"PASSWORD" = "パスワード";
+"PREFERENCES" = "環境設定";
+"QUIT" = "終了する";
+"REQUIRED" = "必須";
+"REVIEW" = "App Storeでレビュー";
+"SETTINGS" = "設定";
+"TIP" = "両方のホスト名と場所が指定されている場合、唯一の場所が使用されます。";
+"UNKNOWN" = "わからない";
+"UPDATE" = "更新";
+"UPDATING" = "更新";
+"USERNAME" = "ユーザー名";

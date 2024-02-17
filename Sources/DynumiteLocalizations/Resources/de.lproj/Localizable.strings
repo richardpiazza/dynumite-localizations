@@ -1,76 +1,48 @@
-/*
-  Localizable.strings
-  Dynumite
-
-  Created by Richard Piazza on 6/5/20.
-  Copyright © 2020 Richard Piazza. All rights reserved.
-*/
-
-// MARK: - MENU ITEMS
-
 "ABOUT" = "Über";
-"UPDATE" = "Aktualisieren";
-"LAST_UPDATE" = "Letztes Update";
-"NEXT_UPDATE" = "Nächstes Update";
-"IP_ADDRESS" = "IP Adresse";
-"PREFERENCES" = "Voreinstellungen";
-"QUIT" = "Verlassen";
-
-// MARK: - Status Messages
-
-"OK" = "in Ordnung";
-"UPDATING" = "Aktualisierung";
-"ERROR" = "Error";
-"UNKNOWN" = "Unbekannt";
-
-// MARK: - Labels & Placeholders
-
-"USERNAME" = "Nutzername";
-"PASSWORD" = "Passwort";
+"ABOUT_BLOB" = "Dynumite hält Ihre Dynu.com Host-Namen / Gruppen auf dem neuesten Stand mit dem aktuellen öffentlichen IP-Adresse.\n\nDynumite verwendet die öffentliche API von dynu.com, ipify.org und ifconfig.co. \n\nWenn finden Sie Dynumite nützlich, beachten Sie bitte einen Moment Zeit nehmen, eine Rezension im App Store zu verlassen.";
 "ALL_DOMAINS" = "alle Domains";
-"HOSTNAME" = "Hostname";
-"GROUP" = "Gruppe";
-"LOCATION" = "Ort";
-"FREQUENCY" = "Frequenz";
-"REQUIRED" = "Erforderlich";
-"OPTIONAL" = "Optional";
-
-// MARK: - Update Frequency Options
-
-"FREQUENCY_MANUAL" = "Handbuch";
-"FREQUENCY_24HOURS" = "24 Stunden";
-"FREQUENCY_12HOURS" = "12 Stunden";
-"FREQUENCY_6HOURS" = "6 Stunden";
-"FREQUENCY_60MINUTES" = "60 Minuten";
-"FREQUENCY_30MINUTES" = "30 Minuten";
-"FREQUENCY_15MINUTES" = "15 Minuten";
-
-// MARK: - Buttons / Actions
-
-"REVIEW" = "Bewertung im App Store";
-"CONTACT_SUPPORT" = "Kontaktieren Sie Support";
-"LOG" = "Log";
 "CLEAR" = "klar";
 "CLOSE" = "Schließen";
+"COMPACT_MENU_DESCRIPTION" = "Reduzieren Sie die Menükomplexität, indem Sie Einstellungen ausblenden, wenn alles in Ordnung ist.";
+"COMPACT_MENU_TITLE" = "Kompaktes Menü";
+"CONTACT_SUPPORT" = "Kontaktieren Sie Support";
 "COPY_TO_CLIPBOARD" = "In die Zwischenablage kopieren";
-
-// MARK: - Longer Helpful Messages And About Information.
-
-"TIP" = "Wenn beiden Hostnamen und Ort angegeben werden, nur wird der Standort verwendet werden.";
-"ABOUT_BLOB" = "Dynumite hält Ihre Dynu.com Host-Namen / Gruppen auf dem neuesten Stand mit dem aktuellen öffentlichen IP-Adresse.\n\nDynumite verwendet die öffentliche API von dynu.com, ipify.org und ifconfig.co. \n\nWenn finden Sie Dynumite nützlich, beachten Sie bitte einen Moment Zeit nehmen, eine Rezension im App Store zu verlassen.";
-
-// MARK: - Notifications
-
-"NOTIFICATION_TITLE" = "Die Aktualisierung der IP-Adresse";
-"NOTIFICATION_BODY" = "Dynumite prüft für Änderungen an der IP-Adresse.";
-
-// MARK: - Errors
-
-"ERROR_DESCRIPTION_IP_ADDRESS" = "Kann keine IP-Adresse erhalten.";
+"ERROR" = "Error";
 "ERROR_DESCRIPTION_AUTHENTICATION" = "Kann nicht mit Dynu.com authentifizieren.";
+"ERROR_DESCRIPTION_IP_ADDRESS" = "Kann keine IP-Adresse erhalten.";
 "ERROR_DESCRIPTION_REQUEST" = "Dynu.com konnte nicht aktualisiert werden.";
 "ERROR_DESCRIPTION_SERVICE" = "Dynu.com Service Schwierigkeiten erfahren können.";
-"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "Überprüfen Sie den Internet-Zugang zu% @.";
 "ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "Überprüfen Sie Ihre Anmeldeinformationen und überprüfen Sie Ihr Konto Zugriff auf Dynu.com hat.";
+"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "Überprüfen Sie den Internet-Zugang zu% @.";
 "ERROR_RECOVERY_SUGGESTION_REQUEST" = "Überprüfen Sie Ihren Hostnamen / Standort und überprüfen sie mit Ihrem Konto gültig sind.";
 "ERROR_RECOVERY_SUGGESTION_SERVICE" = "Ein DNS-Fehler, Missbrauch Flag oder aktualisieren Suspension zurückgegeben wurde.";
+"FREQUENCY" = "Frequenz";
+"FREQUENCY_12HOURS" = "12 Stunden";
+"FREQUENCY_15MINUTES" = "15 Minuten";
+"FREQUENCY_24HOURS" = "24 Stunden";
+"FREQUENCY_30MINUTES" = "30 Minuten";
+"FREQUENCY_60MINUTES" = "60 Minuten";
+"FREQUENCY_6HOURS" = "6 Stunden";
+"FREQUENCY_MANUAL" = "Handbuch";
+"GROUP" = "Gruppe";
+"HOSTNAME" = "Hostname";
+"IP_ADDRESS" = "IP Adresse";
+"LAST_UPDATE" = "Letztes Update";
+"LOCATION" = "Ort";
+"LOG" = "Log";
+"NEXT_UPDATE" = "Nächstes Update";
+"NOTIFICATION_BODY" = "Dynumite prüft für Änderungen an der IP-Adresse.";
+"NOTIFICATION_TITLE" = "Die Aktualisierung der IP-Adresse";
+"OK" = "in Ordnung";
+"OPTIONAL" = "Optional";
+"PASSWORD" = "Passwort";
+"PREFERENCES" = "Voreinstellungen";
+"QUIT" = "Verlassen";
+"REQUIRED" = "Erforderlich";
+"REVIEW" = "Bewertung im App Store";
+"SETTINGS" = "Einstellungen";
+"TIP" = "Wenn beiden Hostnamen und Ort angegeben werden, nur wird der Standort verwendet werden.";
+"UNKNOWN" = "Unbekannt";
+"UPDATE" = "Aktualisieren";
+"UPDATING" = "Aktualisierung";
+"USERNAME" = "Nutzername";

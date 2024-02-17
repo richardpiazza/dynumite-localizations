@@ -1,76 +1,48 @@
-/*
-  Localizable.strings
-  Dynumite
-
-  Created by Richard Piazza on 6/5/20.
-  Copyright © 2020 Richard Piazza. All rights reserved.
-*/
-
-// MARK: - MENU ITEMS
-
 "ABOUT" = "À propos";
-"UPDATE" = "Mettre à jour";
-"LAST_UPDATE" = "Dernière mise à jour";
-"NEXT_UPDATE" = "prochaine mise à jour";
-"IP_ADDRESS" = "Adresse IP";
-"PREFERENCES" = "préférences";
-"QUIT" = "Quitter";
-
-// MARK: - Status Messages
-
-"OK" = "D'accord";
-"UPDATING" = "réactualisation";
-"ERROR" = "Erreur";
-"UNKNOWN" = "Inconnue";
-
-// MARK: - Labels & Placeholders
-
-"USERNAME" = "Nom d'utilisateur";
-"PASSWORD" = "Mot de passe";
+"ABOUT_BLOB" = "Dynumite garde vos Dynu.com / groupes jusqu'à noms d'hôtes à jour avec votre adresse IP publique actuelle. \n\nDynumite utilise dynu.com de l'API publique de, ipify.org et ifconfig.co. \n\nSi vous trouvez Dynumite utile, s'il vous plaît envisager de prendre un moment pour laisser un commentaire sur l'App Store.";
 "ALL_DOMAINS" = "tous les domaines";
-"HOSTNAME" = "hostname";
-"GROUP" = "Groupe";
-"LOCATION" = "Emplacement";
-"FREQUENCY" = "La fréquence";
-"REQUIRED" = "Obligatoire";
-"OPTIONAL" = "Optionnel";
-
-// MARK: - Update Frequency Options
-
-"FREQUENCY_MANUAL" = "Manuel";
-"FREQUENCY_24HOURS" = "24 heures";
-"FREQUENCY_12HOURS" = "12 heures";
-"FREQUENCY_6HOURS" = "6 heures";
-"FREQUENCY_60MINUTES" = "60 minutes";
-"FREQUENCY_30MINUTES" = "30 minutes";
-"FREQUENCY_15MINUTES" = "15 minutes";
-
-// MARK: - Buttons / Actions
-
-"REVIEW" = "Revue dans l'App Store";
-"CONTACT_SUPPORT" = "Contactez le support";
-"LOG" = "Journal";
 "CLEAR" = "Clair";
 "CLOSE" = "Fermer";
+"COMPACT_MENU_DESCRIPTION" = "Réduisez la complexité des menus en masquant les paramètres lorsque tout est 'OK'.";
+"COMPACT_MENU_TITLE" = "Menu compact";
+"CONTACT_SUPPORT" = "Contactez le support";
 "COPY_TO_CLIPBOARD" = "Copier dans le presse-papier";
-
-// MARK: - Longer Helpful Messages And About Information.
-
-"TIP" = "Si les deux le nom d'hôte et l'emplacement sont spécifiés, seul l'emplacement sera utilisé.";
-"ABOUT_BLOB" = "Dynumite garde vos Dynu.com / groupes jusqu'à noms d'hôtes à jour avec votre adresse IP publique actuelle. \n\nDynumite utilise dynu.com de l'API publique de, ipify.org et ifconfig.co. \n\nSi vous trouvez Dynumite utile, s'il vous plaît envisager de prendre un moment pour laisser un commentaire sur l'App Store.";
-
-// MARK: - Notifications
-
-"NOTIFICATION_TITLE" = "Mise à jour l'adresse IP";
-"NOTIFICATION_BODY" = "Dynumite vérifie les modifications à votre adresse IP.";
-
-// MARK: - Errors
-
-"ERROR_DESCRIPTION_IP_ADDRESS" = "Impossible d'obtenir l'adresse IP.";
+"ERROR" = "Erreur";
 "ERROR_DESCRIPTION_AUTHENTICATION" = "Impossible d'authentifier avec Dynu.com.";
+"ERROR_DESCRIPTION_IP_ADDRESS" = "Impossible d'obtenir l'adresse IP.";
 "ERROR_DESCRIPTION_REQUEST" = "Dynu.com n'a pas pu être mis à jour.";
 "ERROR_DESCRIPTION_SERVICE" = "service Dynu.com peut éprouver des difficultés.";
-"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "Vérifier l'accessibilité à Internet à% @.";
 "ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "Vérifiez vos informations d'identification et de vérifier votre compte a accès à Dynu.com.";
+"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "Vérifier l'accessibilité à Internet à% @.";
 "ERROR_RECOVERY_SUGGESTION_REQUEST" = "Vérifiez votre nom d'hôte / emplacement et vérifier leur validité avec votre compte.";
 "ERROR_RECOVERY_SUGGESTION_SERVICE" = "Une erreur de DNS, abus Drapeau, ou mise à jour de suspension a été rendue.";
+"FREQUENCY" = "La fréquence";
+"FREQUENCY_12HOURS" = "12 heures";
+"FREQUENCY_15MINUTES" = "15 minutes";
+"FREQUENCY_24HOURS" = "24 heures";
+"FREQUENCY_30MINUTES" = "30 minutes";
+"FREQUENCY_60MINUTES" = "60 minutes";
+"FREQUENCY_6HOURS" = "6 heures";
+"FREQUENCY_MANUAL" = "Manuel";
+"GROUP" = "Groupe";
+"HOSTNAME" = "hostname";
+"IP_ADDRESS" = "Adresse IP";
+"LAST_UPDATE" = "Dernière mise à jour";
+"LOCATION" = "Emplacement";
+"LOG" = "Journal";
+"NEXT_UPDATE" = "prochaine mise à jour";
+"NOTIFICATION_BODY" = "Dynumite vérifie les modifications à votre adresse IP.";
+"NOTIFICATION_TITLE" = "Mise à jour l'adresse IP";
+"OK" = "D'accord";
+"OPTIONAL" = "Optionnel";
+"PASSWORD" = "Mot de passe";
+"PREFERENCES" = "préférences";
+"QUIT" = "Quitter";
+"REQUIRED" = "Obligatoire";
+"REVIEW" = "Revue dans l'App Store";
+"SETTINGS" = "Paramètres";
+"TIP" = "Si les deux le nom d'hôte et l'emplacement sont spécifiés, seul l'emplacement sera utilisé.";
+"UNKNOWN" = "Inconnue";
+"UPDATE" = "Mettre à jour";
+"UPDATING" = "réactualisation";
+"USERNAME" = "Nom d'utilisateur";
