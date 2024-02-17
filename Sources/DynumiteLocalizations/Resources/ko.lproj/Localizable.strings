@@ -1,76 +1,48 @@
-/*
-  Localizable.strings
-  Dynumite
-
-  Created by Richard Piazza on 6/5/20.
-  Copyright © 2020 Richard Piazza. All rights reserved.
-*/
-
-// MARK: - MENU ITEMS
-
 "ABOUT" = "약";
-"UPDATE" = "최신 정보";
-"LAST_UPDATE" = "마지막 업데이트";
-"NEXT_UPDATE" = "다음 업데이트";
-"IP_ADDRESS" = "IP 주소";
-"PREFERENCES" = "환경 설정";
-"QUIT" = "떠나다";
-
-// MARK: - Status Messages
-
-"OK" = "확인";
-"UPDATING" = "업데이트";
-"ERROR" = "오류";
-"UNKNOWN" = "알 수 없는";
-
-// MARK: - Labels & Placeholders
-
-"USERNAME" = "사용자 이름";
-"PASSWORD" = "암호";
+"ABOUT_BLOB" = "Dynumite는. 현재의 공용 IP 주소와 날짜에 Dynu.com 호스트 이름 / 그룹을 유지 \n\nDynumite는 dynu.com, ipify.org의 공개 API의 및 ifconfig.co를 사용합니다. \n\n만약 당신이 Dynumite 유용 앱 스토어에 리뷰를 떠나 잠시 복용을 고려하시기 바랍니다.";
 "ALL_DOMAINS" = "모든 도메인";
-"HOSTNAME" = "호스트 이름";
-"GROUP" = "그룹";
-"LOCATION" = "위치";
-"FREQUENCY" = "회수";
-"REQUIRED" = "필수";
-"OPTIONAL" = "선택 과목";
-
-// MARK: - Update Frequency Options
-
-"FREQUENCY_MANUAL" = "설명서";
-"FREQUENCY_24HOURS" = "24 시간";
-"FREQUENCY_12HOURS" = "12 시간";
-"FREQUENCY_6HOURS" = "6 시간";
-"FREQUENCY_60MINUTES" = "60 분";
-"FREQUENCY_30MINUTES" = "30 분";
-"FREQUENCY_15MINUTES" = "15 분";
-
-// MARK: - Buttons / Actions
-
-"REVIEW" = "앱 스토어에서 검토";
-"CONTACT_SUPPORT" = "연락처 지원";
-"LOG" = "로그";
 "CLEAR" = "맑은";
 "CLOSE" = "닫기";
+"COMPACT_MENU_DESCRIPTION" = "모든 것이 '정상'일 때 설정을 숨겨 메뉴 복잡성을 줄입니다.";
+"COMPACT_MENU_TITLE" = "컴팩트 메뉴";
+"CONTACT_SUPPORT" = "연락처 지원";
 "COPY_TO_CLIPBOARD" = "클립 보드에 복사";
-
-// MARK: - Longer Helpful Messages And About Information.
-
-"TIP" = "두 호스트 이름과 위치를 지정하면, 위치 만이 사용됩니다.";
-"ABOUT_BLOB" = ", Dynumite는. 현재의 공용 IP 주소와 날짜에 Dynu.com 호스트 이름 / 그룹을 유지 \n\nDynumite는 dynu.com, ipify.org의 공개 API의 및 ifconfig.co를 사용합니다. \n\n만약 당신이 Dynumite 유용 앱 스토어에 리뷰를 떠나 잠시 복용을 고려하시기 바랍니다.";
-
-// MARK: - Notifications
-
-"NOTIFICATION_TITLE" = "업데이트 IP 주소";
-"NOTIFICATION_BODY" = "Dynumite는 IP 주소의 변경 사항을 확인하고 있습니다.";
-
-// MARK: - Errors
-
-"ERROR_DESCRIPTION_IP_ADDRESS" = "IP 주소를 얻을 수 없습니다.";
+"ERROR" = "오류";
 "ERROR_DESCRIPTION_AUTHENTICATION" = "Dynu.com 인증 할 수 없습니다.";
+"ERROR_DESCRIPTION_IP_ADDRESS" = "IP 주소를 얻을 수 없습니다.";
 "ERROR_DESCRIPTION_REQUEST" = "Dynu.com를 업데이트 할 수 없습니다.";
 "ERROR_DESCRIPTION_SERVICE" = "Dynu.com 서비스는 어려움을 겪고 될 수 있습니다.";
-"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "%로 인터넷 접근성을 확인 @.";
 "ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "자격 증명을 확인하고 계정 Dynu.com에 대한 액세스 권한이 있는지 확인합니다.";
+"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "%로 인터넷 접근성을 확인 @.";
 "ERROR_RECOVERY_SUGGESTION_REQUEST" = "호스트 이름 / 위치를 확인하고 그들이 당신의 계정으로 유효 확인합니다.";
 "ERROR_RECOVERY_SUGGESTION_SERVICE" = "는 DNS 오류, 플래그 남용, 또는 업데이트 서스펜션가 반환되었습니다.";
+"FREQUENCY" = "회수";
+"FREQUENCY_12HOURS" = "12 시간";
+"FREQUENCY_15MINUTES" = "15 분";
+"FREQUENCY_24HOURS" = "24 시간";
+"FREQUENCY_30MINUTES" = "30 분";
+"FREQUENCY_60MINUTES" = "60 분";
+"FREQUENCY_6HOURS" = "6 시간";
+"FREQUENCY_MANUAL" = "설명서";
+"GROUP" = "그룹";
+"HOSTNAME" = "호스트 이름";
+"IP_ADDRESS" = "IP 주소";
+"LAST_UPDATE" = "마지막 업데이트";
+"LOCATION" = "위치";
+"LOG" = "로그";
+"NEXT_UPDATE" = "다음 업데이트";
+"NOTIFICATION_BODY" = "Dynumite는 IP 주소의 변경 사항을 확인하고 있습니다.";
+"NOTIFICATION_TITLE" = "업데이트 IP 주소";
+"OK" = "확인";
+"OPTIONAL" = "선택 과목";
+"PASSWORD" = "암호";
+"PREFERENCES" = "환경 설정";
+"QUIT" = "떠나다";
+"REQUIRED" = "필수";
+"REVIEW" = "앱 스토어에서 검토";
+"SETTINGS" = "설정";
+"TIP" = "두 호스트 이름과 위치를 지정하면, 위치 만이 사용됩니다.";
+"UNKNOWN" = "알 수 없는";
+"UPDATE" = "최신 정보";
+"UPDATING" = "업데이트";
+"USERNAME" = "사용자 이름";

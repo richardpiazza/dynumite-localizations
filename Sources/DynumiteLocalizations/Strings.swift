@@ -14,6 +14,7 @@ public extension Strings {
         case nextUpdate = "Next Update"
         case ipAddress = "IP Address"
         case preferences = "Preferences"
+        case settings = "Settings"
         case quit = "Quit"
         
         public var bundle: Bundle { .module }
@@ -102,6 +103,8 @@ public extension Strings {
     enum Help: String, ExpressibleByLocalizedString {
         case tip = "If both hostname and location are specified, only the location will be used."
         case aboutBlob = "Dynumite keeps your Dynu.com hostname/location up to date with your current public IP Address.\n\nDynumite uses the public API's from dynu.com, ipify.org, and ifconfig.co.\n\nIf you find Dynumite useful, please consider taking a moment to leave a review in the App Store."
+        case compactMenuTitle = "Compact Menu"
+        case compactMenuDescription = "Reduce menu complexity by hiding settings when everything is 'OK'."
         
         public var bundle: Bundle { .module }
         public var defaultIndicators: (prefix: Character, suffix: Character)? { ("[", "]") }

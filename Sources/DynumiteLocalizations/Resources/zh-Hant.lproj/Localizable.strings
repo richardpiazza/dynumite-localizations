@@ -1,76 +1,48 @@
-/*
-  Localizable.strings
-  Dynumite
-
-  Created by Richard Piazza on 6/5/20.
-  Copyright © 2020 Richard Piazza. All rights reserved.
-*/
-
-// MARK: - MENU ITEMS
-
 "ABOUT" = "關於";
-"UPDATE" = "更新";
-"LAST_UPDATE" = "最後更新";
-"NEXT_UPDATE" = "下次更新";
-"IP_ADDRESS" = "IP地址";
-"PREFERENCES" = "首選項";
-"QUIT" = "放棄";
-
-// MARK: - Status Messages
-
-"OK" = "好";
-"UPDATING" = "更新";
-"ERROR" = "錯誤";
-"UNKNOWN" = "未知";
-
-// MARK: - Labels & Placeholders
-
-"USERNAME" = "用戶名";
-"PASSWORD" = "密碼";
+"ABOUT_BLOB" = "Dynumite讓您Dynu.com主機名/組最新的與您當前的公網IP地址。\n\nDynumite使用公共API的從dynu.com，ipify.org和ifconfig.co。\n\n如果您發現Dynumite有用，請考慮一個時刻留下評論在App Store中。";
 "ALL_DOMAINS" = "所有域";
-"HOSTNAME" = "主機名";
-"GROUP" = "組";
-"LOCATION" = "位置";
-"FREQUENCY" = "頻率";
-"REQUIRED" = "需要";
-"OPTIONAL" = "可選的";
-
-// MARK: - Update Frequency Options
-
-"FREQUENCY_MANUAL" = "手冊";
-"FREQUENCY_24HOURS" = "24小時";
-"FREQUENCY_12HOURS" = "12小時";
-"FREQUENCY_6HOURS" = "6小時";
-"FREQUENCY_60MINUTES" = "60分鐘";
-"FREQUENCY_30MINUTES" = "30分鐘";
-"FREQUENCY_15MINUTES" = "15分鐘";
-
-// MARK: - Buttons / Actions
-
-"REVIEW" = "回顧在App Store中";
-"CONTACT_SUPPORT" = "聯繫支持";
-"LOG" = "日誌";
 "CLEAR" = "明確";
 "CLOSE" = "關";
+"COMPACT_MENU_DESCRIPTION" = "當一切都“正常”時，請透過隱藏設定來降低選單複雜性。";
+"COMPACT_MENU_TITLE" = "簡潔菜單";
+"CONTACT_SUPPORT" = "聯繫支持";
 "COPY_TO_CLIPBOARD" = "複製到剪貼板";
-
-// MARK: - Longer Helpful Messages And About Information.
-
-"TIP" = "如果同時指定主機名和位置，只有位置將被使用。";
-"ABOUT_BLOB" = "Dynumite讓您Dynu.com主機名/組最新的與您當前的公網IP地址。\n\nDynumite使用公共API的從dynu.com，ipify.org和ifconfig.co。\n\n如果您發現Dynumite有用，請考慮一個時刻留下評論在App Store中。";
-
-// MARK: - Notifications
-
-"NOTIFICATION_TITLE" = "更新IP地址";
-"NOTIFICATION_BODY" = "Dynumite正在檢查更改您的IP地址。";
-
-// MARK: - Errors
-
-"ERROR_DESCRIPTION_IP_ADDRESS" = "無法獲取IP地址。";
+"ERROR" = "錯誤";
 "ERROR_DESCRIPTION_AUTHENTICATION" = "無法與Dynu.com驗證。";
+"ERROR_DESCRIPTION_IP_ADDRESS" = "無法獲取IP地址。";
 "ERROR_DESCRIPTION_REQUEST" = "Dynu.com無法更新。";
 "ERROR_DESCRIPTION_SERVICE" = "Dynu.com服務可能遇到的困難。";
-"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "驗證互聯網無障礙％@。";
 "ERROR_RECOVERY_SUGGESTION_AUTHENTICATION" = "檢查您的憑據並驗證您的帳戶可以訪問Dynu.com。";
+"ERROR_RECOVERY_SUGGESTION_IP_ADDRESS" = "驗證互聯網無障礙％@。";
 "ERROR_RECOVERY_SUGGESTION_REQUEST" = "檢查你的主機名/位置，並驗證它們與您的帳戶有效。";
 "ERROR_RECOVERY_SUGGESTION_SERVICE" = "DNS錯誤，濫用標誌，或返回更新停止。";
+"FREQUENCY" = "頻率";
+"FREQUENCY_12HOURS" = "12小時";
+"FREQUENCY_15MINUTES" = "15分鐘";
+"FREQUENCY_24HOURS" = "24小時";
+"FREQUENCY_30MINUTES" = "30分鐘";
+"FREQUENCY_60MINUTES" = "60分鐘";
+"FREQUENCY_6HOURS" = "6小時";
+"FREQUENCY_MANUAL" = "手冊";
+"GROUP" = "組";
+"HOSTNAME" = "主機名";
+"IP_ADDRESS" = "IP地址";
+"LAST_UPDATE" = "最後更新";
+"LOCATION" = "位置";
+"LOG" = "日誌";
+"NEXT_UPDATE" = "下次更新";
+"NOTIFICATION_BODY" = "Dynumite正在檢查更改您的IP地址。";
+"NOTIFICATION_TITLE" = "更新IP地址";
+"OK" = "好";
+"OPTIONAL" = "可選的";
+"PASSWORD" = "密碼";
+"PREFERENCES" = "首選項";
+"QUIT" = "放棄";
+"REQUIRED" = "需要";
+"REVIEW" = "回顧在App Store中";
+"SETTINGS" = "設定";
+"TIP" = "如果同時指定主機名和位置，只有位置將被使用。";
+"UNKNOWN" = "未知";
+"UPDATE" = "更新";
+"UPDATING" = "更新";
+"USERNAME" = "用戶名";
