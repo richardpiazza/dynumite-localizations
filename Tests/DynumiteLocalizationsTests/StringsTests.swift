@@ -1,8 +1,8 @@
-import XCTest
 @testable import DynumiteLocalizations
+import XCTest
 
 final class StringsTests: XCTestCase {
-    
+
     func testMenuKeys() {
         XCTAssertEqual(Strings.Menu.about.key, "ABOUT")
         XCTAssertEqual(Strings.Menu.update.key, "UPDATE")
@@ -12,13 +12,13 @@ final class StringsTests: XCTestCase {
         XCTAssertEqual(Strings.Menu.preferences.key, "PREFERENCES")
         XCTAssertEqual(Strings.Menu.quit.key, "QUIT")
     }
-    
+
     func testStatusKeys() {
         XCTAssertEqual(Strings.Status.ok.key, "OK")
         XCTAssertEqual(Strings.Status.updating.key, "UPDATING")
         XCTAssertEqual(Strings.Status.unknown.key, "UNKNOWN")
     }
-    
+
     func testPlaceholderKeys() {
         XCTAssertEqual(Strings.Placeholder.username.key, "USERNAME")
         XCTAssertEqual(Strings.Placeholder.password.key, "PASSWORD")
@@ -28,7 +28,7 @@ final class StringsTests: XCTestCase {
         XCTAssertEqual(Strings.Placeholder.required.key, "REQUIRED")
         XCTAssertEqual(Strings.Placeholder.optional.key, "OPTIONAL")
     }
-    
+
     func testFrequencyKeys() {
         XCTAssertEqual(Strings.Frequency.manual.key, "FREQUENCY_MANUAL")
         XCTAssertEqual(Strings.Frequency.hours24.key, "FREQUENCY_24HOURS")
@@ -38,19 +38,19 @@ final class StringsTests: XCTestCase {
         XCTAssertEqual(Strings.Frequency.minutes30.key, "FREQUENCY_30MINUTES")
         XCTAssertEqual(Strings.Frequency.minutes15.key, "FREQUENCY_15MINUTES")
     }
-    
+
     func testActionKeys() {
         XCTAssertEqual(Strings.Action.review.key, "REVIEW")
         XCTAssertEqual(Strings.Action.contactSupport.key, "CONTACT_SUPPORT")
         XCTAssertEqual(Strings.Action.log.key, "LOG")
         XCTAssertEqual(Strings.Action.clear.key, "CLEAR")
     }
-    
+
     func testHelpKeys() {
         XCTAssertEqual(Strings.Help.tip.key, "TIP")
         XCTAssertEqual(Strings.Help.aboutBlob.key, "ABOUT_BLOB")
     }
-    
+
     func testErrorKeys() {
         XCTAssertEqual(Strings.Error.Description.ipAddress.key, "ERROR_DESCRIPTION_IP_ADDRESS")
         XCTAssertEqual(Strings.Error.Description.authentication.key, "ERROR_DESCRIPTION_AUTHENTICATION")
