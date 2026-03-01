@@ -3,16 +3,6 @@ import XCTest
 
 final class StringsTests: XCTestCase {
     
-    static var allTests = [
-        ("testMenuKeys", testMenuKeys),
-        ("testStatusKeys", testStatusKeys),
-        ("testPlaceholderKeys", testPlaceholderKeys),
-        ("testFrequencyKeys", testFrequencyKeys),
-        ("testActionKeys", testActionKeys),
-        ("testHelpKeys", testHelpKeys),
-        ("testErrorKeys", testErrorKeys),
-    ]
-    
     func testMenuKeys() {
         XCTAssertEqual(Strings.Menu.about.key, "ABOUT")
         XCTAssertEqual(Strings.Menu.update.key, "UPDATE")
